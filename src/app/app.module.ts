@@ -11,6 +11,7 @@ import { SidebarTitleComponent } from './sidebar/title/sidebar-title.component';
 import { SidebarProfileComponent } from './sidebar/profile/sidebar-profile.component';
 import { SidebarFooterComponent } from './sidebar/footer/sidebar-footer.component';
 import { SidebarToggleComponent } from './navbar/sidebar-toggle/sidebar-toggle.component';
+import { NavbarMenuComponent } from './navbar/menu/navbar-menu.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { SidebarToggleComponent } from './navbar/sidebar-toggle/sidebar-toggle.c
     SidebarTitleComponent,
     SidebarProfileComponent,
     SidebarFooterComponent,
-    SidebarToggleComponent
+    SidebarToggleComponent,
+    NavbarMenuComponent
   ],
   imports: [
     BrowserModule
