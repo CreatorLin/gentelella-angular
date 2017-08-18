@@ -2,15 +2,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { SidebarMenuService } from './sidebar/menu/sidebar-menu.service';
+
+import * as $ from 'jquery';
+import { SidebarMenuComponent } from './sidebar/menu/sidebar-menu.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SidebarMenuComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [SidebarMenuService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

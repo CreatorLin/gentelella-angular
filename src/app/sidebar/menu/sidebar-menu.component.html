@@ -1,0 +1,28 @@
+
+<div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+  <div class="menu_section" *ngFor="let section of menu">
+    <h3>{{section.title}}</h3>
+    <ul class="nav side-menu">
+      <li *ngFor="let item of section.subItems" on-click="onSelect($event)">
+        <a bind-href="item.link" *ngIf="item.link != null">
+          <i class="fa {{item.iconClass}}" ></i>
+              {{item.title}}
+          <span class="label label-success pull-right" *ngIf="item.label != null">{{item.label}}</span>
+        </a>    
+
+        <a *ngIf="item.link == null">
+          <i class="fa {{item.iconClass}}"></i>
+              {{item.title}}
+          <span class="fa fa-chevron-down"></span>
+          <span class="label label-success pull-right" *ngIf="item.label != null">{{item.label}}</span>
+        </a>
+        <ul class="nav child_menu" *ngIf="item.subItems != null">
+          <li *ngFor="let subItem of item.subItems">
+            <a href="subItem.link">{{subItem.title}}</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+</div>
