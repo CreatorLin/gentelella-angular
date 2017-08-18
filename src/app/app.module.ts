@@ -8,6 +8,7 @@ import * as $ from 'jquery';
 import { SidebarMenuComponent } from './sidebar/menu/sidebar-menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarTitleComponent } from './sidebar/title/sidebar-title.component';
+import { SidebarProfileComponent } from './sidebar/profile/sidebar-profile.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { SidebarTitleComponent } from './sidebar/title/sidebar-title.component';
     AppComponent,
     SidebarMenuComponent,
     FooterComponent,
-    SidebarTitleComponent
+    SidebarTitleComponent,
+    SidebarProfileComponent
   ],
   imports: [
     BrowserModule
