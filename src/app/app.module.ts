@@ -6,12 +6,14 @@ import { SidebarMenuService } from './sidebar/menu/sidebar-menu.service';
 
 import * as $ from 'jquery';
 import { SidebarMenuComponent } from './sidebar/menu/sidebar-menu.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarMenuComponent
+    SidebarMenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
