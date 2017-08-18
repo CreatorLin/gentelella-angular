@@ -14,6 +14,7 @@ import { SidebarToggleComponent } from './navbar/sidebar-toggle/sidebar-toggle.c
 import { NavbarMenuComponent } from './navbar/menu/navbar-menu.component';
 import { MsgListComponent } from './navbar/msg-list/msg-list.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     SidebarToggleComponent,
     NavbarMenuComponent,
     MsgListComponent,
-    SidebarComponent
+    SidebarComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule
