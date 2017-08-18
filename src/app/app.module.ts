@@ -9,6 +9,7 @@ import { SidebarMenuComponent } from './sidebar/menu/sidebar-menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarTitleComponent } from './sidebar/title/sidebar-title.component';
 import { SidebarProfileComponent } from './sidebar/profile/sidebar-profile.component';
+import { SidebarFooterComponent } from './sidebar/footer/sidebar-footer.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { SidebarProfileComponent } from './sidebar/profile/sidebar-profile.compo
     SidebarMenuComponent,
     FooterComponent,
     SidebarTitleComponent,
-    SidebarProfileComponent
+    SidebarProfileComponent,
+    SidebarFooterComponent
   ],
   imports: [
     BrowserModule
