@@ -8,6 +8,7 @@ import { AdvancedComponentsComponent } from './page-content/advanced-components/
 import { FormValidationComponent } from './page-content/form-validation/form-validation.component';
 import { FormWizardComponent } from './page-content/form-wizard/form-wizard.component';
 import { FormUploadComponent } from './page-content/form-upload/form-upload.component';
+import { FormButtonsComponent } from './page-content/form-buttons/form-buttons.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -19,6 +20,7 @@ const routes: Routes =[
   { path: 'formvalidation',  component: FormValidationComponent,  },
   { path: 'formwizard',  component: FormWizardComponent,  },
   { path: 'formupload',  component: FormUploadComponent,  },
+  { path: 'formbuttons',  component: FormButtonsComponent,  },
 ]
 
 @NgModule({
