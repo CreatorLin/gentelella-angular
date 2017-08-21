@@ -6,6 +6,7 @@ import { Dashboard3Component } from './page-content/dashboard3/dashboard3.compon
 import { GeneralFormComponent } from './page-content/general-form/general-form.component';
 import { AdvancedComponentsComponent } from './page-content/advanced-components/advanced-components.component';
 import { FormValidationComponent } from './page-content/form-validation/form-validation.component';
+import { FormWizardComponent } from './page-content/form-wizard/form-wizard.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -14,7 +15,8 @@ const routes: Routes =[
   { path: 'dashboard3',  component: Dashboard3Component,  },
   { path: 'generalform',  component: GeneralFormComponent,  },
   { path: 'advancedcomponents',  component: AdvancedComponentsComponent,  },
-  { path: 'formvalidation',  component: FormValidationComponent,  }
+  { path: 'formvalidation',  component: FormValidationComponent,  },
+  { path: 'formwizard',  component: FormWizardComponent,  },
 ]
 
 @NgModule({
