@@ -17,6 +17,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './page-content/dashboard/dashboard.component';
+import { Dashboard2Component } from './page-content/dashboard2/dashboard2.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { DashboardComponent } from './page-content/dashboard/dashboard.component
     MsgListComponent,
     SidebarComponent,
     NavbarComponent,
-    DashboardComponent
+    DashboardComponent,
+    Dashboard2Component
   ],
   imports: [
     BrowserModule,
