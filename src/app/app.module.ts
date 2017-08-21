@@ -20,6 +20,7 @@ import { DashboardComponent } from './page-content/dashboard/dashboard.component
 import { Dashboard2Component } from './page-content/dashboard2/dashboard2.component';
 import { Dashboard3Component } from './page-content/dashboard3/dashboard3.component';
 import { GeneralFormComponent } from './page-content/general-form/general-form.component';
+import { AdvancedComponentsComponent } from './page-content/advanced-components/advanced-components.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { GeneralFormComponent } from './page-content/general-form/general-form.c
     DashboardComponent,
     Dashboard2Component,
     Dashboard3Component,
-    GeneralFormComponent
+    GeneralFormComponent,
+    AdvancedComponentsComponent
   ],
   imports: [
     BrowserModule,
