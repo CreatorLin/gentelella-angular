@@ -21,6 +21,7 @@ import { Dashboard2Component } from './page-content/dashboard2/dashboard2.compon
 import { Dashboard3Component } from './page-content/dashboard3/dashboard3.component';
 import { GeneralFormComponent } from './page-content/general-form/general-form.component';
 import { AdvancedComponentsComponent } from './page-content/advanced-components/advanced-components.component';
+import { FormValidationComponent } from './page-content/form-validation/form-validation.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { AdvancedComponentsComponent } from './page-content/advanced-components/
     Dashboard2Component,
     Dashboard3Component,
     GeneralFormComponent,
-    AdvancedComponentsComponent
+    AdvancedComponentsComponent,
+    FormValidationComponent
   ],
   imports: [
     BrowserModule,
