@@ -18,6 +18,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './page-content/dashboard/dashboard.component';
 import { Dashboard2Component } from './page-content/dashboard2/dashboard2.component';
+import { Dashboard3Component } from './page-content/dashboard3/dashboard3.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { Dashboard2Component } from './page-content/dashboard2/dashboard2.compon
     SidebarComponent,
     NavbarComponent,
     DashboardComponent,
-    Dashboard2Component
+    Dashboard2Component,
+    Dashboard3Component
   ],
   imports: [
     BrowserModule,
