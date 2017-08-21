@@ -15,7 +15,7 @@ import { NavbarMenuComponent } from './navbar/menu/navbar-menu.component';
 import { MsgListComponent } from './navbar/msg-list/msg-list.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { NavbarComponent } from './navbar/navbar.component';
-
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -32,7 +32,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     NavbarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [SidebarMenuService],
   bootstrap: [AppComponent]
