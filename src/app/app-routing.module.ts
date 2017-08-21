@@ -7,6 +7,7 @@ import { GeneralFormComponent } from './page-content/general-form/general-form.c
 import { AdvancedComponentsComponent } from './page-content/advanced-components/advanced-components.component';
 import { FormValidationComponent } from './page-content/form-validation/form-validation.component';
 import { FormWizardComponent } from './page-content/form-wizard/form-wizard.component';
+import { FormUploadComponent } from './page-content/form-upload/form-upload.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -17,6 +18,7 @@ const routes: Routes =[
   { path: 'advancedcomponents',  component: AdvancedComponentsComponent,  },
   { path: 'formvalidation',  component: FormValidationComponent,  },
   { path: 'formwizard',  component: FormWizardComponent,  },
+  { path: 'formupload',  component: FormUploadComponent,  },
 ]
 
 @NgModule({

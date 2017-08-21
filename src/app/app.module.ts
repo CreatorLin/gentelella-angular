@@ -23,6 +23,7 @@ import { GeneralFormComponent } from './page-content/general-form/general-form.c
 import { AdvancedComponentsComponent } from './page-content/advanced-components/advanced-components.component';
 import { FormValidationComponent } from './page-content/form-validation/form-validation.component';
 import { FormWizardComponent } from './page-content/form-wizard/form-wizard.component';
+import { FormUploadComponent } from './page-content/form-upload/form-upload.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { FormWizardComponent } from './page-content/form-wizard/form-wizard.comp
     GeneralFormComponent,
     AdvancedComponentsComponent,
     FormValidationComponent,
-    FormWizardComponent
+    FormWizardComponent,
+    FormUploadComponent
   ],
   imports: [
     BrowserModule,
