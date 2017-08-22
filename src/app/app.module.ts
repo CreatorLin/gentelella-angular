@@ -31,6 +31,7 @@ import { TypographyComponent } from './page-content/typography/typography.compon
 import { IconsComponent } from './page-content/icons/icons.component';
 import { GlyphiconsComponent } from './page-content/glyphicons/glyphicons.component';
 import { WidgetsComponent } from './page-content/widgets/widgets.component';
+import { InvoiceComponent } from './page-content/invoice/invoice.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { WidgetsComponent } from './page-content/widgets/widgets.component';
     TypographyComponent,
     IconsComponent,
     GlyphiconsComponent,
-    WidgetsComponent
+    WidgetsComponent,
+    InvoiceComponent
   ],
   imports: [
     BrowserModule,
