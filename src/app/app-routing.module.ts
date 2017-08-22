@@ -18,6 +18,7 @@ import { WidgetsComponent } from './page-content/widgets/widgets.component';
 import { InvoiceComponent } from './page-content/invoice/invoice.component';
 import { InboxComponent } from './page-content/inbox/inbox.component';
 import { CalendarComponent } from './page-content/calendar/calendar.component';
+import { TablesComponent } from './page-content/tables/tables.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -39,6 +40,7 @@ const routes: Routes =[
   { path: 'invoice',  component: InvoiceComponent,  },
   { path: 'inbox',  component: InboxComponent,  },
   { path: 'calendar',  component: CalendarComponent,  },
+  { path: 'tables',  component: TablesComponent,  },
 ]
 
 @NgModule({

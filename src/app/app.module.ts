@@ -34,6 +34,7 @@ import { WidgetsComponent } from './page-content/widgets/widgets.component';
 import { InvoiceComponent } from './page-content/invoice/invoice.component';
 import { InboxComponent } from './page-content/inbox/inbox.component';
 import { CalendarComponent } from './page-content/calendar/calendar.component';
+import { TablesComponent } from './page-content/tables/tables.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +66,8 @@ import { CalendarComponent } from './page-content/calendar/calendar.component';
     WidgetsComponent,
     InvoiceComponent,
     InboxComponent,
-    CalendarComponent
+    CalendarComponent,
+    TablesComponent
   ],
   imports: [
     BrowserModule,
