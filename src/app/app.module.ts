@@ -26,6 +26,7 @@ import { FormWizardComponent } from './page-content/form-wizard/form-wizard.comp
 import { FormUploadComponent } from './page-content/form-upload/form-upload.component';
 import { FormButtonsComponent } from './page-content/form-buttons/form-buttons.component';
 import { GeneralElementsComponent } from './page-content/general-elements/general-elements.component';
+import { MediaGalleryComponent } from './page-content/media-gallery/media-gallery.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { GeneralElementsComponent } from './page-content/general-elements/genera
     FormWizardComponent,
     FormUploadComponent,
     FormButtonsComponent,
-    GeneralElementsComponent
+    GeneralElementsComponent,
+    MediaGalleryComponent
   ],
   imports: [
     BrowserModule,

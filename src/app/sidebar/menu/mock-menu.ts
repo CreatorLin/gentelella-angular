@@ -26,7 +26,7 @@ export const menu: MenuItem[] = [
             title: "UI Elements", iconClass: "fa-desktop",
             subItems: [
                 { title: "General Elements", link: "GeneralElements" },
-                { title: "Media Gallery", link: "Media Gallery" },
+                { title: "Media Gallery", link: "MediaGallery" },
                 { title: "Typography", link: "Typography" },
                 { title: "Icons", link: "Icons" },
                 { title: "Glyphicons", link: "Glyphicons" },
