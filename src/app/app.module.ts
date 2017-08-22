@@ -43,6 +43,7 @@ import { EChartsComponent } from './page-content/e-charts/e-charts.component';
 import { OtherChartsComponent } from './page-content/other-charts/other-charts.component';
 import { FixedSidebarComponent } from './page-content/fixed-sidebar/fixed-sidebar.component';
 import { FixedFooterComponent } from './page-content/fixed-footer/fixed-footer.component';
+import { ECommerceComponent } from './page-content/e-commerce/e-commerce.component';
 
 @NgModule({
   declarations: [
@@ -83,7 +84,8 @@ import { FixedFooterComponent } from './page-content/fixed-footer/fixed-footer.c
     EChartsComponent,
     OtherChartsComponent,
     FixedSidebarComponent,
-    FixedFooterComponent
+    FixedFooterComponent,
+    ECommerceComponent
   ],
   imports: [
     BrowserModule,
