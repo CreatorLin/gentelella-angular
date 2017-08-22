@@ -33,6 +33,7 @@ import { GlyphiconsComponent } from './page-content/glyphicons/glyphicons.compon
 import { WidgetsComponent } from './page-content/widgets/widgets.component';
 import { InvoiceComponent } from './page-content/invoice/invoice.component';
 import { InboxComponent } from './page-content/inbox/inbox.component';
+import { CalendarComponent } from './page-content/calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import { InboxComponent } from './page-content/inbox/inbox.component';
     GlyphiconsComponent,
     WidgetsComponent,
     InvoiceComponent,
-    InboxComponent
+    InboxComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,

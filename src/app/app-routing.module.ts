@@ -17,6 +17,7 @@ import { GlyphiconsComponent } from './page-content/glyphicons/glyphicons.compon
 import { WidgetsComponent } from './page-content/widgets/widgets.component';
 import { InvoiceComponent } from './page-content/invoice/invoice.component';
 import { InboxComponent } from './page-content/inbox/inbox.component';
+import { CalendarComponent } from './page-content/calendar/calendar.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -37,6 +38,7 @@ const routes: Routes =[
   { path: 'widgets',  component: WidgetsComponent,  },
   { path: 'invoice',  component: InvoiceComponent,  },
   { path: 'inbox',  component: InboxComponent,  },
+  { path: 'calendar',  component: CalendarComponent,  },
 ]
 
 @NgModule({
