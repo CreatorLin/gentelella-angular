@@ -45,6 +45,7 @@ import { FixedSidebarComponent } from './page-content/fixed-sidebar/fixed-sideba
 import { FixedFooterComponent } from './page-content/fixed-footer/fixed-footer.component';
 import { ECommerceComponent } from './page-content/e-commerce/e-commerce.component';
 import { ProjectsComponent } from './page-content/projects/projects.component';
+import { ProjectDetailComponent } from './page-content/project-detail/project-detail.component';
 
 @NgModule({
   declarations: [
@@ -87,7 +88,8 @@ import { ProjectsComponent } from './page-content/projects/projects.component';
     FixedSidebarComponent,
     FixedFooterComponent,
     ECommerceComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ProjectDetailComponent
   ],
   imports: [
     BrowserModule,

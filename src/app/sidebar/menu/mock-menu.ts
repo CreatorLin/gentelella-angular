@@ -70,7 +70,7 @@ export const menu: MenuItem[] = [
                 subItems: [
                     { title: "E-commerce", link: "E-commerce" },
                     { title: "Projects", link: "Projects" },
-                    { title: "Project Detail", link: "Project Detail" },
+                    { title: "Project Detail", link: "ProjectDetail" },
                     { title: "Contacts", link: "Contacts" },
                     { title: "Profile", link: "Profile" }
                 ]
