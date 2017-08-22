@@ -9,6 +9,7 @@ import { FormValidationComponent } from './page-content/form-validation/form-val
 import { FormWizardComponent } from './page-content/form-wizard/form-wizard.component';
 import { FormUploadComponent } from './page-content/form-upload/form-upload.component';
 import { FormButtonsComponent } from './page-content/form-buttons/form-buttons.component';
+import { GeneralElementsComponent } from './page-content/general-elements/general-elements.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -21,6 +22,7 @@ const routes: Routes =[
   { path: 'formwizard',  component: FormWizardComponent,  },
   { path: 'formupload',  component: FormUploadComponent,  },
   { path: 'formbuttons',  component: FormButtonsComponent,  },
+  { path: 'generalelements',  component: GeneralElementsComponent,  },
 ]
 
 @NgModule({

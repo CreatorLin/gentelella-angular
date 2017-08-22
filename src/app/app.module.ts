@@ -25,6 +25,7 @@ import { FormValidationComponent } from './page-content/form-validation/form-val
 import { FormWizardComponent } from './page-content/form-wizard/form-wizard.component';
 import { FormUploadComponent } from './page-content/form-upload/form-upload.component';
 import { FormButtonsComponent } from './page-content/form-buttons/form-buttons.component';
+import { GeneralElementsComponent } from './page-content/general-elements/general-elements.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { FormButtonsComponent } from './page-content/form-buttons/form-buttons.c
     FormValidationComponent,
     FormWizardComponent,
     FormUploadComponent,
-    FormButtonsComponent
+    FormButtonsComponent,
+    GeneralElementsComponent
   ],
   imports: [
     BrowserModule,
