@@ -36,6 +36,7 @@ import { InboxComponent } from './page-content/inbox/inbox.component';
 import { CalendarComponent } from './page-content/calendar/calendar.component';
 import { TablesComponent } from './page-content/tables/tables.component';
 import { TableDynamicComponent } from './page-content/table-dynamic/table-dynamic.component';
+import { ChartJSComponent } from './page-content/chart-js/chart-js.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +70,8 @@ import { TableDynamicComponent } from './page-content/table-dynamic/table-dynami
     InboxComponent,
     CalendarComponent,
     TablesComponent,
-    TableDynamicComponent
+    TableDynamicComponent,
+    ChartJSComponent
   ],
   imports: [
     BrowserModule,

@@ -20,6 +20,7 @@ import { InboxComponent } from './page-content/inbox/inbox.component';
 import { CalendarComponent } from './page-content/calendar/calendar.component';
 import { TablesComponent } from './page-content/tables/tables.component';
 import { TableDynamicComponent } from './page-content/table-dynamic/table-dynamic.component';
+import { ChartJSComponent } from './page-content/chart-js/chart-js.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -43,6 +44,7 @@ const routes: Routes =[
   { path: 'calendar',  component: CalendarComponent,  },
   { path: 'tables',  component: TablesComponent,  },
   { path: 'tabledynamic',  component: TableDynamicComponent,  },
+  { path: 'chartjs',  component: ChartJSComponent,  },
 ]
 
 @NgModule({
