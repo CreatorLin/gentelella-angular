@@ -83,7 +83,7 @@ export const menu: MenuItem[] = [
                     { title: "500 Error", link: "500 Error" },
                     { title: "Plain Page", link: "PlainPage" },
                     { title: "Login Page", link: "Login Page" },
-                    { title: "Pricing Tables", link: "Pricing Tables" }
+                    { title: "Pricing Tables", link: "PricingTables" }
                 ]
             },
             {

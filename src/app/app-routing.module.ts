@@ -33,6 +33,7 @@ import { ProjectDetailComponent } from './page-content/project-detail/project-de
 import { ContactsComponent } from './page-content/contacts/contacts.component';
 import { ProfileComponent } from './page-content/profile/profile.component';
 import { PlainPageComponent } from './page-content/plain-page/plain-page.component';
+import { PricingTablesComponent } from './page-content/pricing-tables/pricing-tables.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -69,6 +70,7 @@ const routes: Routes =[
   { path: 'contacts',  component: ContactsComponent,  },
   { path: 'profile',  component: ProfileComponent,  },
   { path: 'plainpage',  component: PlainPageComponent,  },
+  { path: 'pricingtables',  component: PricingTablesComponent,  },
 ]
 
 @NgModule({
