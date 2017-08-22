@@ -13,6 +13,7 @@ import { GeneralElementsComponent } from './page-content/general-elements/genera
 import { MediaGalleryComponent } from './page-content/media-gallery/media-gallery.component';
 import { TypographyComponent } from './page-content/typography/typography.component';
 import { IconsComponent } from './page-content/icons/icons.component';
+import { GlyphiconsComponent } from './page-content/glyphicons/glyphicons.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -29,6 +30,7 @@ const routes: Routes =[
   { path: 'mediagallery',  component: MediaGalleryComponent,  },
   { path: 'typography',  component: TypographyComponent,  },
   { path: 'icons',  component: IconsComponent,  },
+  { path: 'glyphicons',  component: GlyphiconsComponent,  },
 ]
 
 @NgModule({
