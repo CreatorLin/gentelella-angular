@@ -21,6 +21,7 @@ import { CalendarComponent } from './page-content/calendar/calendar.component';
 import { TablesComponent } from './page-content/tables/tables.component';
 import { TableDynamicComponent } from './page-content/table-dynamic/table-dynamic.component';
 import { ChartJSComponent } from './page-content/chart-js/chart-js.component';
+import { ChartJS2Component } from './page-content/chart-js2/chart-js2.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -45,6 +46,7 @@ const routes: Routes =[
   { path: 'tables',  component: TablesComponent,  },
   { path: 'tabledynamic',  component: TableDynamicComponent,  },
   { path: 'chartjs',  component: ChartJSComponent,  },
+  { path: 'chartjs2',  component: ChartJS2Component,  },
 ]
 
 @NgModule({

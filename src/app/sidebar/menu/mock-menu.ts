@@ -47,7 +47,7 @@ export const menu: MenuItem[] = [
             title: "Data Presentation", iconClass: "fa-bar-chart-o",
             subItems: [
                 { title: "Chart JS", link: "ChartJS" },
-                { title: "Chart JS2", link: "Chart JS2" },
+                { title: "Chart JS2", link: "ChartJS2" },
                 { title: "Moris JS", link: "Moris JS" },
                 { title: "ECharts", link: "ECharts" },
                 { title: "Other Charts", link: "Other Charts" }

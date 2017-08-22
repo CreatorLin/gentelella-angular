@@ -37,6 +37,7 @@ import { CalendarComponent } from './page-content/calendar/calendar.component';
 import { TablesComponent } from './page-content/tables/tables.component';
 import { TableDynamicComponent } from './page-content/table-dynamic/table-dynamic.component';
 import { ChartJSComponent } from './page-content/chart-js/chart-js.component';
+import { ChartJS2Component } from './page-content/chart-js2/chart-js2.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +72,8 @@ import { ChartJSComponent } from './page-content/chart-js/chart-js.component';
     CalendarComponent,
     TablesComponent,
     TableDynamicComponent,
-    ChartJSComponent
+    ChartJSComponent,
+    ChartJS2Component
   ],
   imports: [
     BrowserModule,
