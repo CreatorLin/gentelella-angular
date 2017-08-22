@@ -50,7 +50,7 @@ export const menu: MenuItem[] = [
                 { title: "Chart JS2", link: "ChartJS2" },
                 { title: "Moris JS", link: "MorisJS" },
                 { title: "ECharts", link: "ECharts" },
-                { title: "Other Charts", link: "Other Charts" }
+                { title: "Other Charts", link: "OtherCharts" }
             ]
         },
         {

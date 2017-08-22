@@ -24,6 +24,7 @@ import { ChartJSComponent } from './page-content/chart-js/chart-js.component';
 import { ChartJS2Component } from './page-content/chart-js2/chart-js2.component';
 import { MorisJSComponent } from './page-content/moris-js/moris-js.component';
 import { EChartsComponent } from './page-content/e-charts/e-charts.component';
+import { OtherChartsComponent } from './page-content/other-charts/other-charts.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -51,6 +52,7 @@ const routes: Routes =[
   { path: 'chartjs2',  component: ChartJS2Component,  },
   { path: 'morisjs',  component: MorisJSComponent,  },
   { path: 'echarts',  component: EChartsComponent,  },
+  { path: 'othercharts',  component: OtherChartsComponent,  },
 ]
 
 @NgModule({
