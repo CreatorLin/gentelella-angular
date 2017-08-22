@@ -47,6 +47,7 @@ import { ECommerceComponent } from './page-content/e-commerce/e-commerce.compone
 import { ProjectsComponent } from './page-content/projects/projects.component';
 import { ProjectDetailComponent } from './page-content/project-detail/project-detail.component';
 import { ContactsComponent } from './page-content/contacts/contacts.component';
+import { ProfileComponent } from './page-content/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -91,7 +92,8 @@ import { ContactsComponent } from './page-content/contacts/contacts.component';
     ECommerceComponent,
     ProjectsComponent,
     ProjectDetailComponent,
-    ContactsComponent
+    ContactsComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

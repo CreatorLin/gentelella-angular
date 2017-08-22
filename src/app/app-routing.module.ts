@@ -31,6 +31,7 @@ import { ECommerceComponent } from './page-content/e-commerce/e-commerce.compone
 import { ProjectsComponent } from './page-content/projects/projects.component';
 import { ProjectDetailComponent } from './page-content/project-detail/project-detail.component';
 import { ContactsComponent } from './page-content/contacts/contacts.component';
+import { ProfileComponent } from './page-content/profile/profile.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -65,6 +66,7 @@ const routes: Routes =[
   { path: 'projects',  component: ProjectsComponent,  },
   { path: 'projectdetail',  component: ProjectDetailComponent,  },
   { path: 'contacts',  component: ContactsComponent,  },
+  { path: 'profile',  component: ProfileComponent,  },
 ]
 
 @NgModule({
