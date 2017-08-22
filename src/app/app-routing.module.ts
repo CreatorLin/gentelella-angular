@@ -12,6 +12,7 @@ import { FormButtonsComponent } from './page-content/form-buttons/form-buttons.c
 import { GeneralElementsComponent } from './page-content/general-elements/general-elements.component';
 import { MediaGalleryComponent } from './page-content/media-gallery/media-gallery.component';
 import { TypographyComponent } from './page-content/typography/typography.component';
+import { IconsComponent } from './page-content/icons/icons.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -27,6 +28,7 @@ const routes: Routes =[
   { path: 'generalelements',  component: GeneralElementsComponent,  },
   { path: 'mediagallery',  component: MediaGalleryComponent,  },
   { path: 'typography',  component: TypographyComponent,  },
+  { path: 'icons',  component: IconsComponent,  },
 ]
 
 @NgModule({

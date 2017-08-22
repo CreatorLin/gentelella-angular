@@ -28,6 +28,7 @@ import { FormButtonsComponent } from './page-content/form-buttons/form-buttons.c
 import { GeneralElementsComponent } from './page-content/general-elements/general-elements.component';
 import { MediaGalleryComponent } from './page-content/media-gallery/media-gallery.component';
 import { TypographyComponent } from './page-content/typography/typography.component';
+import { IconsComponent } from './page-content/icons/icons.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { TypographyComponent } from './page-content/typography/typography.compon
     FormButtonsComponent,
     GeneralElementsComponent,
     MediaGalleryComponent,
-    TypographyComponent
+    TypographyComponent,
+    IconsComponent
   ],
   imports: [
     BrowserModule,
