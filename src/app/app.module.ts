@@ -42,6 +42,7 @@ import { MorisJSComponent } from './page-content/moris-js/moris-js.component';
 import { EChartsComponent } from './page-content/e-charts/e-charts.component';
 import { OtherChartsComponent } from './page-content/other-charts/other-charts.component';
 import { FixedSidebarComponent } from './page-content/fixed-sidebar/fixed-sidebar.component';
+import { FixedFooterComponent } from './page-content/fixed-footer/fixed-footer.component';
 
 @NgModule({
   declarations: [
@@ -81,7 +82,8 @@ import { FixedSidebarComponent } from './page-content/fixed-sidebar/fixed-sideba
     MorisJSComponent,
     EChartsComponent,
     OtherChartsComponent,
-    FixedSidebarComponent
+    FixedSidebarComponent,
+    FixedFooterComponent
   ],
   imports: [
     BrowserModule,

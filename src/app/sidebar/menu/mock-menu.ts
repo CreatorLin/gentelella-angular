@@ -57,7 +57,7 @@ export const menu: MenuItem[] = [
             title: "Layouts", iconClass: "fa-clone",
             subItems: [
                 { title: "Fixed Sidebar", link: "FixedSidebar" },
-                { title: "Fixed Footer", link: "Fixed Footer" }
+                { title: "Fixed Footer", link: "FixedFooter" }
             ]
         }
         ]

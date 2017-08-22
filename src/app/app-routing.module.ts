@@ -26,6 +26,7 @@ import { MorisJSComponent } from './page-content/moris-js/moris-js.component';
 import { EChartsComponent } from './page-content/e-charts/e-charts.component';
 import { OtherChartsComponent } from './page-content/other-charts/other-charts.component';
 import { FixedSidebarComponent } from './page-content/fixed-sidebar/fixed-sidebar.component';
+import { FixedFooterComponent } from './page-content/fixed-footer/fixed-footer.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -55,6 +56,7 @@ const routes: Routes =[
   { path: 'echarts',  component: EChartsComponent,  },
   { path: 'othercharts',  component: OtherChartsComponent,  },
   { path: 'fixedsidebar',  component: FixedSidebarComponent,  },
+  { path: 'fixedfooter',  component: FixedFooterComponent,  },
 ]
 
 @NgModule({
