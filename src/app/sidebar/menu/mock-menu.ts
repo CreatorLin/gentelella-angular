@@ -48,7 +48,7 @@ export const menu: MenuItem[] = [
             subItems: [
                 { title: "Chart JS", link: "ChartJS" },
                 { title: "Chart JS2", link: "ChartJS2" },
-                { title: "Moris JS", link: "Moris JS" },
+                { title: "Moris JS", link: "MorisJS" },
                 { title: "ECharts", link: "ECharts" },
                 { title: "Other Charts", link: "Other Charts" }
             ]

@@ -38,6 +38,7 @@ import { TablesComponent } from './page-content/tables/tables.component';
 import { TableDynamicComponent } from './page-content/table-dynamic/table-dynamic.component';
 import { ChartJSComponent } from './page-content/chart-js/chart-js.component';
 import { ChartJS2Component } from './page-content/chart-js2/chart-js2.component';
+import { MorisJSComponent } from './page-content/moris-js/moris-js.component';
 
 @NgModule({
   declarations: [
@@ -73,7 +74,8 @@ import { ChartJS2Component } from './page-content/chart-js2/chart-js2.component'
     TablesComponent,
     TableDynamicComponent,
     ChartJSComponent,
-    ChartJS2Component
+    ChartJS2Component,
+    MorisJSComponent
   ],
   imports: [
     BrowserModule,
