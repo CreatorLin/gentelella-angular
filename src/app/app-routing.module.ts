@@ -30,6 +30,7 @@ import { FixedFooterComponent } from './page-content/fixed-footer/fixed-footer.c
 import { ECommerceComponent } from './page-content/e-commerce/e-commerce.component';
 import { ProjectsComponent } from './page-content/projects/projects.component';
 import { ProjectDetailComponent } from './page-content/project-detail/project-detail.component';
+import { ContactsComponent } from './page-content/contacts/contacts.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -63,7 +64,7 @@ const routes: Routes =[
   { path: 'e-commerce',  component: ECommerceComponent,  },
   { path: 'projects',  component: ProjectsComponent,  },
   { path: 'projectdetail',  component: ProjectDetailComponent,  },
-  { path: 'projectdetail',  component: ProjectDetailComponent,  },
+  { path: 'contacts',  component: ContactsComponent,  },
 ]
 
 @NgModule({
