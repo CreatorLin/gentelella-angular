@@ -23,6 +23,7 @@ import { TableDynamicComponent } from './page-content/table-dynamic/table-dynami
 import { ChartJSComponent } from './page-content/chart-js/chart-js.component';
 import { ChartJS2Component } from './page-content/chart-js2/chart-js2.component';
 import { MorisJSComponent } from './page-content/moris-js/moris-js.component';
+import { EChartsComponent } from './page-content/e-charts/e-charts.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -49,6 +50,7 @@ const routes: Routes =[
   { path: 'chartjs',  component: ChartJSComponent,  },
   { path: 'chartjs2',  component: ChartJS2Component,  },
   { path: 'morisjs',  component: MorisJSComponent,  },
+  { path: 'echarts',  component: EChartsComponent,  },
 ]
 
 @NgModule({
