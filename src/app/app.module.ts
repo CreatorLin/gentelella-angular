@@ -30,6 +30,7 @@ import { MediaGalleryComponent } from './page-content/media-gallery/media-galler
 import { TypographyComponent } from './page-content/typography/typography.component';
 import { IconsComponent } from './page-content/icons/icons.component';
 import { GlyphiconsComponent } from './page-content/glyphicons/glyphicons.component';
+import { WidgetsComponent } from './page-content/widgets/widgets.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { GlyphiconsComponent } from './page-content/glyphicons/glyphicons.compon
     MediaGalleryComponent,
     TypographyComponent,
     IconsComponent,
-    GlyphiconsComponent
+    GlyphiconsComponent,
+    WidgetsComponent
   ],
   imports: [
     BrowserModule,
