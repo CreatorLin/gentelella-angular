@@ -81,7 +81,7 @@ export const menu: MenuItem[] = [
                     { title: "403 Error", link: "403 Error" },
                     { title: "404 Error", link: "404 Error" },
                     { title: "500 Error", link: "500 Error" },
-                    { title: "Plain Page", link: "Plain Page" },
+                    { title: "Plain Page", link: "PlainPage" },
                     { title: "Login Page", link: "Login Page" },
                     { title: "Pricing Tables", link: "Pricing Tables" }
                 ]

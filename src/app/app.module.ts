@@ -48,6 +48,7 @@ import { ProjectsComponent } from './page-content/projects/projects.component';
 import { ProjectDetailComponent } from './page-content/project-detail/project-detail.component';
 import { ContactsComponent } from './page-content/contacts/contacts.component';
 import { ProfileComponent } from './page-content/profile/profile.component';
+import { PlainPageComponent } from './page-content/plain-page/plain-page.component';
 
 @NgModule({
   declarations: [
@@ -93,7 +94,8 @@ import { ProfileComponent } from './page-content/profile/profile.component';
     ProjectsComponent,
     ProjectDetailComponent,
     ContactsComponent,
-    ProfileComponent
+    ProfileComponent,
+    PlainPageComponent
   ],
   imports: [
     BrowserModule,
