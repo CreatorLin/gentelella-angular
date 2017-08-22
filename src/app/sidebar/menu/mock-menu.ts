@@ -40,7 +40,7 @@ export const menu: MenuItem[] = [
             title: "Tables", iconClass: "fa-table",
             subItems: [
                 { title: "Tables", link: "Tables" },
-                { title: "Table Dynamic", link: "Table Dynamic" }
+                { title: "Table Dynamic", link: "TableDynamic" }
             ]
         },
         {
