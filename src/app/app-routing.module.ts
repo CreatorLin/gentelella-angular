@@ -28,6 +28,7 @@ import { OtherChartsComponent } from './page-content/other-charts/other-charts.c
 import { FixedSidebarComponent } from './page-content/fixed-sidebar/fixed-sidebar.component';
 import { FixedFooterComponent } from './page-content/fixed-footer/fixed-footer.component';
 import { ECommerceComponent } from './page-content/e-commerce/e-commerce.component';
+import { ProjectsComponent } from './page-content/projects/projects.component';
 
 const routes: Routes =[
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -59,6 +60,7 @@ const routes: Routes =[
   { path: 'fixedsidebar',  component: FixedSidebarComponent,  },
   { path: 'fixedfooter',  component: FixedFooterComponent,  },
   { path: 'e-commerce',  component: ECommerceComponent,  },
+  { path: 'projects',  component: ProjectsComponent,  },
 ]
 
 @NgModule({
