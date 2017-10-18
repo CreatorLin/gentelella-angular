@@ -18,7 +18,7 @@
         </a>
         <ul class="nav child_menu" *ngIf="item.subItems != null">
           <li *ngFor="let subItem of item.subItems">
-            <a routerLink="{{subItem.link | lowercase}}">{{subItem.title}}</a>
+            <a routerLink="/{{subItem.link | lowercase}}">{{subItem.title}}</a>
           </li>
         </ul>
       </li>

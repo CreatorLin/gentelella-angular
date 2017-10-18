@@ -50,6 +50,7 @@ import { ContactsComponent } from './page-content/contacts/contacts.component';
 import { ProfileComponent } from './page-content/profile/profile.component';
 import { PlainPageComponent } from './page-content/plain-page/plain-page.component';
 import { PricingTablesComponent } from './page-content/pricing-tables/pricing-tables.component';
+import { BasicLayoutComponent } from './layout/basic-layout/basic-layout.component';
 
 @NgModule({
   declarations: [
@@ -97,7 +98,8 @@ import { PricingTablesComponent } from './page-content/pricing-tables/pricing-ta
     ContactsComponent,
     ProfileComponent,
     PlainPageComponent,
-    PricingTablesComponent
+    PricingTablesComponent,
+    BasicLayoutComponent
   ],
   imports: [
     BrowserModule,
