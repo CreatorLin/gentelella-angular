@@ -34,51 +34,62 @@ import { ContactsComponent } from './page-content/contacts/contacts.component';
 import { ProfileComponent } from './page-content/profile/profile.component';
 import { PlainPageComponent } from './page-content/plain-page/plain-page.component';
 import { PricingTablesComponent } from './page-content/pricing-tables/pricing-tables.component';
-import { BasicLayoutComponent } from './layout/basic-layout/basic-layout.component';
+import { LayoutComponent } from './shared/layout/layout.component';
+import { BaseLayoutComponent } from './shared/layout/base/base-layout.component';
 import { Error403Component } from './page-content/error403/error403.component';
 import { Error404Component } from './page-content/error404/error404.component';
 import { Error500Component } from './page-content/error500/error500.component';
 
-const routes: Routes = [{
-  path: '',
-  component: BasicLayoutComponent,
-  children: [
-    { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-    { path: 'dashboard',  component: DashboardComponent  },
-    { path: 'dashboard2',  component: Dashboard2Component  },
-    { path: 'dashboard3',  component: Dashboard3Component  },
-    { path: 'generalform',  component: GeneralFormComponent  },
-    { path: 'advancedcomponents',  component: AdvancedComponentsComponent  },
-    { path: 'formvalidation',  component: FormValidationComponent  },
-    { path: 'formwizard',  component: FormWizardComponent  },
-    { path: 'formupload',  component: FormUploadComponent  },
-    { path: 'formbuttons',  component: FormButtonsComponent  },
-    { path: 'generalelements',  component: GeneralElementsComponent  },
-    { path: 'mediagallery',  component: MediaGalleryComponent  },
-    { path: 'typography',  component: TypographyComponent  },
-    { path: 'icons',  component: IconsComponent  },
-    { path: 'glyphicons',  component: GlyphiconsComponent  },
-    { path: 'widgets',  component: WidgetsComponent  },
-    { path: 'invoice',  component: InvoiceComponent  },
-    { path: 'inbox',  component: InboxComponent  },
-    { path: 'calendar',  component: CalendarComponent  },
-    { path: 'tables',  component: TablesComponent  },
-    { path: 'tabledynamic',  component: TableDynamicComponent  },
-    { path: 'chartjs',  component: ChartJSComponent  },
-    { path: 'chartjs2',  component: ChartJS2Component  },
-    { path: 'morisjs',  component: MorisJSComponent  },
-    { path: 'echarts',  component: EChartsComponent  },
-    { path: 'othercharts',  component: OtherChartsComponent  },
-    { path: 'fixedsidebar',  component: FixedSidebarComponent  },
-    { path: 'fixedfooter',  component: FixedFooterComponent  },
-    { path: 'e-commerce',  component: ECommerceComponent  },
-    { path: 'projects',  component: ProjectsComponent  },
-    { path: 'projectdetail',  component: ProjectDetailComponent  },
-    { path: 'contacts',  component: ContactsComponent  },
-    { path: 'profile',  component: ProfileComponent  },
-    { path: 'plainpage',  component: PlainPageComponent  },
-    { path: 'pricingtables',  component: PricingTablesComponent  }
-  ]},
+
+
+const normalRoutes: Routes = [
+  { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+  { path: 'dashboard',  component: DashboardComponent  },
+  { path: 'dashboard2',  component: Dashboard2Component  },
+  { path: 'dashboard3',  component: Dashboard3Component  },
+  { path: 'generalform',  component: GeneralFormComponent  },
+  { path: 'advancedcomponents',  component: AdvancedComponentsComponent  },
+  { path: 'formvalidation',  component: FormValidationComponent  },
+  { path: 'formwizard',  component: FormWizardComponent  },
+  { path: 'formupload',  component: FormUploadComponent  },
+  { path: 'formbuttons',  component: FormButtonsComponent  },
+  { path: 'generalelements',  component: GeneralElementsComponent  },
+  { path: 'mediagallery',  component: MediaGalleryComponent  },
+  { path: 'typography',  component: TypographyComponent  },
+  { path: 'icons',  component: IconsComponent  },
+  { path: 'glyphicons',  component: GlyphiconsComponent  },
+  { path: 'widgets',  component: WidgetsComponent  },
+  { path: 'invoice',  component: InvoiceComponent  },
+  { path: 'inbox',  component: InboxComponent  },
+  { path: 'calendar',  component: CalendarComponent  },
+  { path: 'tables',  component: TablesComponent  },
+  { path: 'tabledynamic',  component: TableDynamicComponent  },
+  { path: 'chartjs',  component: ChartJSComponent  },
+  { path: 'chartjs2',  component: ChartJS2Component  },
+  { path: 'morisjs',  component: MorisJSComponent  },
+  { path: 'echarts',  component: EChartsComponent  },
+  { path: 'othercharts',  component: OtherChartsComponent  },
+  { path: 'fixedsidebar',  component: FixedSidebarComponent  },
+  { path: 'fixedfooter',  component: FixedFooterComponent  },
+  { path: 'e-commerce',  component: ECommerceComponent  },
+  { path: 'projects',  component: ProjectsComponent  },
+  { path: 'projectdetail',  component: ProjectDetailComponent  },
+  { path: 'contacts',  component: ContactsComponent  },
+  { path: 'profile',  component: ProfileComponent  },
+  { path: 'plainpage',  component: PlainPageComponent  },
+  { path: 'pricingtables',  component: PricingTablesComponent  }
+]
+
+const routes: Routes = [
+  {
+    path: '',
+    component: BaseLayoutComponent,
+    children: [{
+      path: '',
+      component: LayoutComponent,
+      children: normalRoutes
+    }]
+  },
   { path: '403error',  component: Error403Component  },
   { path: '404error',  component: Error404Component  },
   { path: '500error',  component: Error500Component  }

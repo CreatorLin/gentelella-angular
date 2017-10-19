@@ -2,19 +2,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { SidebarMenuService } from './sidebar/menu/sidebar-menu.service';
+import { SidebarMenuService } from './shared/layout/normal/sidebar/menu/sidebar-menu.service';
 
 import * as $ from 'jquery';
-import { SidebarMenuComponent } from './sidebar/menu/sidebar-menu.component';
-import { FooterComponent } from './footer/footer.component';
-import { SidebarTitleComponent } from './sidebar/title/sidebar-title.component';
-import { SidebarProfileComponent } from './sidebar/profile/sidebar-profile.component';
-import { SidebarFooterComponent } from './sidebar/footer/sidebar-footer.component';
-import { SidebarToggleComponent } from './navbar/sidebar-toggle/sidebar-toggle.component';
-import { NavbarMenuComponent } from './navbar/menu/navbar-menu.component';
-import { MsgListComponent } from './navbar/msg-list/msg-list.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { SidebarMenuComponent } from './shared/layout/normal/sidebar/menu/sidebar-menu.component';
+import { FooterComponent } from './shared/layout/normal/footer/footer.component';
+import { SidebarTitleComponent } from './shared/layout/normal/sidebar/title/sidebar-title.component';
+import { SidebarProfileComponent } from './shared/layout/normal/sidebar/profile/sidebar-profile.component';
+import { SidebarFooterComponent } from './shared/layout/normal/sidebar/footer/sidebar-footer.component';
+import { SidebarToggleComponent } from './shared/layout/normal/navbar/sidebar-toggle/sidebar-toggle.component';
+import { NavbarMenuComponent } from './shared/layout/normal/navbar/menu/navbar-menu.component';
+import { MsgListComponent } from './shared/layout/normal/navbar/msg-list/msg-list.component';
+import { SidebarComponent } from './shared/layout/normal/sidebar/sidebar.component';
+import { NavbarComponent } from './shared/layout/normal/navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './page-content/dashboard/dashboard.component';
 import { Dashboard2Component } from './page-content/dashboard2/dashboard2.component';
@@ -50,10 +50,11 @@ import { ContactsComponent } from './page-content/contacts/contacts.component';
 import { ProfileComponent } from './page-content/profile/profile.component';
 import { PlainPageComponent } from './page-content/plain-page/plain-page.component';
 import { PricingTablesComponent } from './page-content/pricing-tables/pricing-tables.component';
-import { BasicLayoutComponent } from './layout/basic-layout/basic-layout.component';
 import { Error403Component } from './page-content/error403/error403.component';
 import { Error404Component } from './page-content/error404/error404.component';
 import { Error500Component } from './page-content/error500/error500.component';
+import { LayoutComponent } from './shared/layout/layout.component';
+import { BaseLayoutComponent } from './shared/layout/base/base-layout.component';
 
 @NgModule({
   declarations: [
@@ -102,10 +103,11 @@ import { Error500Component } from './page-content/error500/error500.component';
     ProfileComponent,
     PlainPageComponent,
     PricingTablesComponent,
-    BasicLayoutComponent,
     Error403Component,
     Error404Component,
-    Error500Component
+    Error500Component,
+    LayoutComponent,
+    BaseLayoutComponent
   ],
   imports: [
     BrowserModule,
