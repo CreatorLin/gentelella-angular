@@ -55,6 +55,7 @@ import { Error404Component } from './page-content/error404/error404.component';
 import { Error500Component } from './page-content/error500/error500.component';
 import { LayoutComponent } from './shared/layout/layout.component';
 import { BaseLayoutComponent } from './shared/layout/base/base-layout.component';
+import { LoginPageComponent } from './page-content/login-page/login-page.component';
 
 @NgModule({
   declarations: [
@@ -107,7 +108,8 @@ import { BaseLayoutComponent } from './shared/layout/base/base-layout.component'
     Error404Component,
     Error500Component,
     LayoutComponent,
-    BaseLayoutComponent
+    BaseLayoutComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,

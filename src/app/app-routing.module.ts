@@ -39,8 +39,7 @@ import { BaseLayoutComponent } from './shared/layout/base/base-layout.component'
 import { Error403Component } from './page-content/error403/error403.component';
 import { Error404Component } from './page-content/error404/error404.component';
 import { Error500Component } from './page-content/error500/error500.component';
-
-
+import { LoginPageComponent } from './page-content/login-page/login-page.component';
 
 const normalRoutes: Routes = [
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -92,7 +91,8 @@ const routes: Routes = [
   },
   { path: '403error',  component: Error403Component  },
   { path: '404error',  component: Error404Component  },
-  { path: '500error',  component: Error500Component  }
+  { path: '500error',  component: Error500Component  },
+  { path: 'loginpage',  component: LoginPageComponent  }
 ]
 
 @NgModule({
