@@ -51,6 +51,9 @@ import { ProfileComponent } from './page-content/profile/profile.component';
 import { PlainPageComponent } from './page-content/plain-page/plain-page.component';
 import { PricingTablesComponent } from './page-content/pricing-tables/pricing-tables.component';
 import { BasicLayoutComponent } from './layout/basic-layout/basic-layout.component';
+import { Error403Component } from './page-content/error403/error403.component';
+import { Error404Component } from './page-content/error404/error404.component';
+import { Error500Component } from './page-content/error500/error500.component';
 
 @NgModule({
   declarations: [
@@ -99,7 +102,10 @@ import { BasicLayoutComponent } from './layout/basic-layout/basic-layout.compone
     ProfileComponent,
     PlainPageComponent,
     PricingTablesComponent,
-    BasicLayoutComponent
+    BasicLayoutComponent,
+    Error403Component,
+    Error404Component,
+    Error500Component
   ],
   imports: [
     BrowserModule,
